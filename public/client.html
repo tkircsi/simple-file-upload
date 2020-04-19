@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File-Upload Demo client</title>
+  </head>
+  <body>
+    <h1>File-Upload Demo</h1>
+    <form
+      enctype="multipart/form-data"
+      method="post"
+      onsubmit="submitForm(event)"
+    >
+      <input type="file" name="documents" id="documents" />
+      <!--
+      <progress id="file" value="0" max="100"> 0% </progress>
+      -->
+      <div
+        style="width: 400px; background-color: lightgray; text-align: center;"
+      >
+        <div
+          class="progress"
+          style="width: 0%; background-color: lightseagreen;"
+        >
+          0%
+        </div>
+      </div>
+      <button type="submit">Send</button>
+      <br />
+    </form>
+
+    <form
+      enctype="multipart/form-data"
+      method="post"
+      onsubmit="submitForm(event)"
+    >
+      <input type="file" name="documents" id="documents" />
+      <div
+        style="width: 400px; background-color: lightgray; text-align: center;"
+      >
+        <div
+          class="progress"
+          style="width: 0%; background-color: lightseagreen;"
+        >
+          0%
+        </div>
+      </div>
+      <button type="submit">Send</button>
+      <br />
+    </form>
+
+    <form
+      enctype="multipart/form-data"
+      method="post"
+      onsubmit="submitForm(event)"
+    >
+      <input type="file" name="documents" id="documents" />
+      <div
+        style="width: 400px; background-color: lightgray; text-align: center;"
+      >
+        <div
+          class="progress"
+          style="width: 0%; background-color: lightseagreen;"
+        >
+          0%
+        </div>
+      </div>
+      <button type="submit">Send</button>
+      <br />
+    </form>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

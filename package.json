@@ -1,0 +1,27 @@
+{
+  "name": "fileupload-progress",
+  "version": "1.0.0",
+  "description": "This is a nodejs, javascript app for present file upload with progress",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Tibor Kircsi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/multer": "^1.4.2",
+    "@types/node": "^13.11.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "multer": "^1.4.2"
+  }
+}
